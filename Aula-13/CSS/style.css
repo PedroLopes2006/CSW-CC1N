@@ -1,0 +1,15 @@
+@charset "UTF-8";
+body{
+    text-align: justify;
+}
+h1{
+    text-align: center;
+    font-family: "Sedan";
+    font-style: normal;
+}
+h2{
+    text-align: center;
+    font-family: "Open-Sans";
+    font-style: normal;
+}
+
