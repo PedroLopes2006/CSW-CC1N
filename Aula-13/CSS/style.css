@@ -12,4 +12,19 @@ h2{
     font-family: "Open-Sans";
     font-style: normal;
 }
+div{
+    background-color: white;
+    color: black  ;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 15px;
+    padding: 50px;
+    box-shadow: 30px 30px 30px #434545;
+}
 

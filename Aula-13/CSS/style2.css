@@ -1,0 +1,53 @@
+@charset "UTF-8";
+div{
+    color: black  ;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    
+    left: 50%;
+    top: 50%;
+    bottom: 120px;
+    position: relative;
+    transform: translate(-50%, 50%);
+
+    border-radius: 15px;
+    padding: 50px;
+    box-shadow: 30px 30px 30px #434545;
+
+    backdrop-filter: blur(50px);
+}
+body{
+    background-image: url(../imagem/imagem_fundo.jpeg);
+}
+
+
+
+
+@font-face {
+    font-family: "Top Secret";
+    src: url(../fontes/Top\ Secret.ttf) format(truetype);
+}
+@font-face {
+    font-family: "Gimme Danger";
+    src: url(../fontes/Gimme\ Danger.ttf) format(truetype);
+}
+@font-face {
+    font-family: "LL Cooper";
+    src: url(../fontes/LLCOOPER.TTF) format(truetype);
+}
+h1{
+    font-family: "Top Secret";
+    font-style: normal;
+    font-size: 5rem;
+    color: white;
+}
+h2{
+    font-family: "Gimme Danger";
+    font-style: normal;
+    color: orange;
+}
+p{
+    font-family: "LL Cooper";
+    font-style: normal;
+    color: white;
+}
