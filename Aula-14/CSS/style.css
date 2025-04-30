@@ -41,4 +41,26 @@ h1{
     width: 200px;
     border: 1px solid black;
 }
-
+.divtratada:hover{
+    background-color: red;
+}
+.divcomtexto{
+    display: inline-block;
+    background-color: lightcyan;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+.paragrafo{
+    color: lightcyan
+}
+.paragrafo:hover{
+    color: red;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: aqua;
+}
