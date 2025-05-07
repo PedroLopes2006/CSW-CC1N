@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 16</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <p class="titulo">Formulario</p>   
+    <form action="" method="post"> 
+     <div class="container">     
+       <div class="divs"> 
+        <p class="texto">Dados Pessoais</p>
+         <label for="nome">Nome:</label>
+         <input type="text" name="nome" id="nome">
+         <br>
+         <br>
+         <br>
+         <label for="date">Data de Nascimento:</label>
+         <input type="date" required>
+         <br>
+         <br>
+         <br>
+         <label for="email_patter">Email (patter)</label>
+         <input type="email" name="emailpatter" id="emailpatter">
+         <br>
+         <br>
+         <br>
+         <label for="color">Escolha uma Cor:</label>
+         <input type="color" name="cor" id="cor">     
+         <br>
+         <br>
+         <br>
+         <label for="data_e_hora">Data e Hora:</label>
+         <input type="datetime-local" name="data" id="data">
+        </div> 
+        <div>
+         <div class="divs">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <br>
+          <label for="Senha">Senha:</label>
+          <input type="password" id="senha" name="senha">
+         </div>
+          <br>
+          <br>
+         <div class="container2">
+            <div class="divss"> 
+             <label for="Opções"></label>
+             <input type="checkbox" name="opcao1" id="opcao1"> Opção 1
+             <br>
+             <input type="checkbox" name="opcao2" id="opcao2"> Opção 2
+             <br>
+             <input type="checkbox" name="opcao3" id="opcao3"> Opção 3
+            </div>
+            <br>
+            <div class="divss">
+             <label for="Opções2.0"></label>
+             <input type="radio" name="opcao1.0" id="opcao1.0"> Opção 1
+             <br>
+             <input type="radio" name="opcao1.0" id="opcao2.0"> Opção 2
+             <br>
+             <input type="radio" name="opcao1.0" id="opcao3.0"> Opção 3
+            </div>
+          </div>
+        </div> 
+        <div>
+         <div class="divs">
+          <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Deixe um comentário"></textarea>
+         </div>
+         <br>
+         <br>
+         <div class="divsss">
+          <label for="Esporte">Esporte Favorito:</label>
+          <select name="esportes" id="esportes">
+            <option value="Basquete">Basquete</option>
+            <option value="Futebol">Futebol</option>
+            <option value="Tênis">Tênis</option>
+            <option value="Handball">Handball</option>
+            <option value="Vôlei">Vôlei</option>
+          </select>
+         </div>
+        </div>
+      </div>
+       <div class="enviar_limpar">  
+        <label for="envio"></label>
+        <input type="submit" name="enviar" id="envio">
+        <label for="limpar"></label>
+        <input type="reset" name="limpar" id="limpar">
+       </div>
+    </form>
+</body>
+</html>
