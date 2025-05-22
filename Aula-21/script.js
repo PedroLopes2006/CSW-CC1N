@@ -18,13 +18,13 @@ function theCalculator(){
     firstNumber = Number(document.getElementById("firstNumber").value)
     secondNumber = Number(document.getElementById("secondNumber").value)
     theOperation = document.getElementById("operationss").value
-    if( theOperation = "adicao"){
+    if( theOperation == "adicao"){
         document.writeln(firstNumber + secondNumber)
     }
-    else if( theOperation = "subtracao"){
+    else if( theOperation == "subtracao"){
         document.writeln(firstNumber - secondNumber)
     }
-    else if ( theOperation = "multiplicacao"){
+    else if ( theOperation == "multiplicacao"){
         document.writeln(firstNumber * secondNumber)
     }
     else{
